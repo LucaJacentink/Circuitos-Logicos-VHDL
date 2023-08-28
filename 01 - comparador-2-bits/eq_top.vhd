@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 entity eq_top is
    port(
       sw  : in  std_logic_vector(3 downto 0); -- 4 switches
-      led : out std_logic_vector(0 downto 0) -- 1 red LED
+      led : out std_logic_vector(0 downto 0) -- 1  LED
    );
 end eq_top;
 
